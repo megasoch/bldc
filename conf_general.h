@@ -73,8 +73,8 @@
 //#define HW60_IS_MK3
 #define HW60_IS_MK4
 
-#define HW_SOURCE "hw_60.c"
-#define HW_HEADER "hw_60.h"
+//#define HW_SOURCE "hw_60.c"
+//#define HW_HEADER "hw_60.h"
 
 //#define HW_SOURCE "hw_r2.c"
 //#define HW_HEADER "hw_r2.h"
@@ -131,8 +131,8 @@
 //#define HW_SOURCE "hw_rd2.c"
 //#define HW_HEADER "hw_rd2.h"
 
-//#define HW_SOURCE "hw_100_250.c"
-//#define HW_HEADER "hw_100_250.h"
+#define HW_SOURCE "hw_100_250.c"
+#define HW_HEADER "hw_100_250.h"
 
 //#define HW_SOURCE "hw_unity.c"
 //#define HW_HEADER "hw_unity.h"
@@ -183,7 +183,7 @@
 /*
  * Set APP_CUSTOM_TO_USE to the name of the main C file of the custom application.
  */
-//#define APP_CUSTOM_TO_USE			"app_custom_template.c"
+#define APP_CUSTOM_TO_USE			"app_skypuff.c"
 //#define APP_CUSTOM_TO_USE			"app_motor_heater.c"
 //#include "app_erockit_conf.h"
 
